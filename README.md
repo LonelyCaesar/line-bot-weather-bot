@@ -11,3 +11,10 @@
 6.	氣象資料開放平台https://opendata.cwa.gov.tw/index。
 
 # 二、相關文章
+透過 Messaging API，機器人伺服器可以向 LINE 平台發送資料並從 LINE 平台接收資料。請求以 JSON 格式透過 HTTPS 傳送。Bot伺服器與LINE平台之間的通訊流程如下：
+1.用戶向 LINE 官方帳戶發送訊息。
+2.LINE 平台將 webhook 事件傳送到機器人伺服器的 webhook URL。
+3.機器人伺服器檢查 webhook 事件並透過 LINE 平台回應用戶。
+參考網址：
+https://developers.line.biz/en/docs/messaging-api/overview/
+![messaging-api-architecture f40bffbb](https://github.com/LonelyCaesar/line-bot-weather-bot/assets/101235367/8111f8bc-290b-4ba2-a85a-8e744bed74db)

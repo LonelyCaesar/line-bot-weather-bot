@@ -15,8 +15,8 @@
 1.	用戶向 LINE 官方帳戶發送訊息。
 2.	LINE 平台將 webhook 事件傳送到機器人伺服器的 webhook URL。
 3.	機器人伺服器檢查 webhook 事件並透過 LINE 平台回應用戶。
-參考網址：
-https://developers.line.biz/en/docs/messaging-api/overview/
+4.	
+參考網址：https://developers.line.biz/en/docs/messaging-api/overview/
 
 ![messaging-api-architecture f40bffbb](https://github.com/LonelyCaesar/line-bot-weather-bot/assets/101235367/8111f8bc-290b-4ba2-a85a-8e744bed74db)
 

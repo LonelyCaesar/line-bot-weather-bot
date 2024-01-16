@@ -24,7 +24,7 @@
 LineBot氣象小助理完整demo：
 透過氣象資料開放平台的json爬取要的資料、開啟ngrok取得網址、授權碼貼在code上面及LINE Developer的key作串接並能夠完整的執行。
 
-# 程式碼：
+#### 程式碼：
 ``` python
 from flask_ngrok import run_with_ngrok
 from flask import Flask, request
@@ -212,17 +212,17 @@ if __name__ == "__main__":
     app.run()
 ```
 
-# 執行結果：
-1.	雷達回波圖
+#### 執行結果：
+### 1.	雷達回波圖
 
 
 ![雷達回波](https://github.com/LonelyCaesar/line-bot-weather-bot/assets/101235367/18037eb8-93ed-4c27-ab5c-9070b4a8a6a0)
 
-2.	地震資訊
+### 2.	地震資訊
 
 ![地震資訊](https://github.com/LonelyCaesar/line-bot-weather-bot/assets/101235367/5df642c0-f568-48e5-bf99-044924a984a9)
 
-3.	天氣+預報+空氣
+### 3.	天氣+預報+空氣
 
 ![天氣+預報+空氣](https://github.com/LonelyCaesar/line-bot-weather-bot/assets/101235367/7608a04f-014d-4fe1-8290-d273bbd5e813)
 
@@ -230,4 +230,4 @@ if __name__ == "__main__":
 完成後，在氣象機器人的聊天畫面下方，就會出現圖文選單，點擊圖文選單，就會出現對應的動作。
 
 # 五、參考
-(STEAM教育學習網)https://steam.oxxostudio.tw/category/python/example/line-bot-weather-1.html
+[[STEAM教育學習網](https://steam.oxxostudio.tw/category/python/example/line-bot-weather-1.html)]

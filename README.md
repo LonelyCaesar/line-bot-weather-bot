@@ -230,4 +230,4 @@ if __name__ == "__main__":
 完成後，在氣象機器人的聊天畫面下方，就會出現圖文選單，點擊圖文選單，就會出現對應的動作。
 
 # 五、參考
-[[STEAM教育學習網](https://steam.oxxostudio.tw/category/python/example/line-bot-weather-1.html)]
+[STEAM教育學習網](https://steam.oxxostudio.tw/category/python/example/line-bot-weather-1.html)
